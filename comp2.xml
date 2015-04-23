@@ -29,7 +29,7 @@
             <field name="ACTION">FLASH</field>
             <value name="LED">
               <block type="math_number" id="937">
-                <field name="NUM">0</field>
+                <field name="NUM">DVMA SUCKS ASS</field>
               </block>
             </value>
             <next>
