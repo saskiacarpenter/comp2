@@ -25,7 +25,17 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_right" id="652"></block>
+          <block type="led_select" id="924" inline="true">
+            <field name="ACTION">FLASH</field>
+            <value name="LED">
+              <block type="math_number" id="937">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_right" id="652"></block>
+            </next>
+          </block>
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="816" inline="true">
